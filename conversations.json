@@ -1,0 +1,1200 @@
+[
+    {
+        "title": "Becoming More of Yourself",
+        "create_time": 1702410304.116043,
+        "update_time": 1702411184.110387,
+        "mapping": {
+            "2f42bc90": {
+                "id": "2f42bc90",
+                "message": {
+                    "id": "2f42bc90",
+                    "author": {
+                        "role": "system",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": null,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            ""
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": true,
+                    "weight": 0.0,
+                    "metadata": {},
+                    "recipient": "all"
+                },
+                "parent": "9ce3d5a5",
+                "children": [
+                    "bd16d270"
+                ]
+            },
+            "9ce3d5a5": {
+                "id": "9ce3d5a5",
+                "message": null,
+                "parent": null,
+                "children": [
+                    "2f42bc90"
+                ]
+            },
+            "bd16d270": {
+                "id": "bd16d270",
+                "message": {
+                    "id": "bd16d270",
+                    "author": {
+                        "role": "system",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": null,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            ""
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": null,
+                    "weight": 1.0,
+                    "metadata": {
+                        "is_user_system_message": true,
+                        "user_context_message_data": {
+                            "about_user_message": "Lately I've been filling the knowledge gaps I have on algorithms.",
+                            "about_model_message": "Feel free to ask for any clarifications, if need be."
+                        }
+                    },
+                    "recipient": "all"
+                },
+                "parent": "2f42bc90",
+                "children": [
+                    "bbb272c7"
+                ]
+            },
+            "bbb272c7": {
+                "id": "bbb272c7",
+                "message": {
+                    "id": "bbb272c7",
+                    "author": {
+                        "role": "user",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1702410304.117087,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            "you're becoming more of yourself each day.\nexplain this.\nthen improve it. say it better."
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": null,
+                    "weight": 1.0,
+                    "metadata": {
+                        "finish_details": {
+                            "type": "unknown"
+                        },
+                        "citations": [],
+                        "voice_mode_message": false,
+                        "timestamp_": "absolute",
+                        "message_type": null
+                    },
+                    "recipient": "all"
+                },
+                "parent": "bd16d270",
+                "children": [
+                    "f937cb54"
+                ]
+            },
+            "f937cb54": {
+                "id": "f937cb54",
+                "message": {
+                    "id": "f937cb54",
+                    "author": {
+                        "role": "assistant",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1702410316.173492,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            "That phrase suggests that each day, you're growing more into your unique identity, honing your distinct characteristics and becoming more of who you are meant to be. It's a recognition of personal growth and the journey towards self-actualization.\n\nA more expressive way to say this could be: \"With every sunrise, you're sculpting a more authentic version of yourself, embracing your uniqueness and evolving into the fullest expression of your individuality.\""
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": true,
+                    "weight": 1.0,
+                    "metadata": {
+                        "finish_details": {
+                            "type": "stop",
+                            "stop_tokens": [
+                                100260
+                            ]
+                        },
+                        "inline_gizmo_id": null,
+                        "is_complete": true,
+                        "message_type": null,
+                        "model_slug": "gpt-4",
+                        "parent_id": "bbb272c7",
+                        "timestamp_": "absolute"
+                    },
+                    "recipient": "all"
+                },
+                "parent": "bbb272c7",
+                "children": [
+                    "bbb20daa"
+                ]
+            },
+            "bbb20daa": {
+                "id": "bbb20daa",
+                "message": {
+                    "id": "bbb20daa",
+                    "author": {
+                        "role": "user",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1702410355.471577,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            "just as concise, but better"
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": null,
+                    "weight": 1.0,
+                    "metadata": {
+                        "finish_details": {
+                            "type": "unknown"
+                        },
+                        "citations": [],
+                        "voice_mode_message": false,
+                        "timestamp_": "absolute",
+                        "message_type": null
+                    },
+                    "recipient": "all"
+                },
+                "parent": "f937cb54",
+                "children": [
+                    "f30b239f",
+                    "4d1312e7"
+                ]
+            },
+            "f30b239f": {
+                "id": "f30b239f",
+                "message": {
+                    "id": "f30b239f",
+                    "author": {
+                        "role": "assistant",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1702410357.237685,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            "\"Every day, you're refining your essence, increasingly embodying the truest version of yourself.\""
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": true,
+                    "weight": 1.0,
+                    "metadata": {
+                        "finish_details": {
+                            "type": "stop",
+                            "stop_tokens": [
+                                100260
+                            ]
+                        },
+                        "inline_gizmo_id": null,
+                        "is_complete": true,
+                        "message_type": null,
+                        "model_slug": "gpt-4",
+                        "parent_id": "bbb20daa",
+                        "timestamp_": "absolute"
+                    },
+                    "recipient": "all"
+                },
+                "parent": "bbb20daa",
+                "children": []
+            },
+            "4d1312e7": {
+                "id": "4d1312e7",
+                "message": {
+                    "id": "4d1312e7",
+                    "author": {
+                        "role": "assistant",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1702410367.690733,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            "\"Every day, you're sharpening your essence, more distinctly 'you' than ever before.\""
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": true,
+                    "weight": 1.0,
+                    "metadata": {
+                        "finish_details": {
+                            "type": "stop",
+                            "stop_tokens": [
+                                100260
+                            ]
+                        },
+                        "inline_gizmo_id": null,
+                        "is_complete": true,
+                        "message_type": null,
+                        "model_slug": "gpt-4",
+                        "parent_id": "bbb20daa",
+                        "timestamp_": "absolute"
+                    },
+                    "recipient": "all"
+                },
+                "parent": "bbb20daa",
+                "children": [
+                    "bbb2ad87"
+                ]
+            },
+            "bbb2ad87": {
+                "id": "bbb2ad87",
+                "message": {
+                    "id": "bbb2ad87",
+                    "author": {
+                        "role": "user",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1702410382.17457,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            "nop. doesn't have a ring to it."
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": null,
+                    "weight": 1.0,
+                    "metadata": {
+                        "finish_details": {
+                            "type": "unknown"
+                        },
+                        "citations": [],
+                        "voice_mode_message": false,
+                        "timestamp_": "absolute",
+                        "message_type": null
+                    },
+                    "recipient": "all"
+                },
+                "parent": "4d1312e7",
+                "children": [
+                    "167e38c4"
+                ]
+            },
+            "167e38c4": {
+                "id": "167e38c4",
+                "message": {
+                    "id": "167e38c4",
+                    "author": {
+                        "role": "assistant",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1702410383.584416,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            "\"Each day, you're unfolding into a more refined, true-to-self version.\""
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": true,
+                    "weight": 1.0,
+                    "metadata": {
+                        "finish_details": {
+                            "type": "stop",
+                            "stop_tokens": [
+                                100260
+                            ]
+                        },
+                        "inline_gizmo_id": null,
+                        "is_complete": true,
+                        "message_type": null,
+                        "model_slug": "gpt-4",
+                        "parent_id": "bbb2ad87",
+                        "timestamp_": "absolute"
+                    },
+                    "recipient": "all"
+                },
+                "parent": "bbb2ad87",
+                "children": [
+                    "76a41818"
+                ]
+            },
+            "76a41818": {
+                "id": "76a41818",
+                "message": {
+                    "id": "76a41818",
+                    "author": {
+                        "role": "user",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1702410994.609142,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            "Try and keep your answers short and tell me, why does the atmospheric pressure influence the temperature at which the water boils?"
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": null,
+                    "weight": 1.0,
+                    "metadata": {
+                        "voice_mode_message": true,
+                        "timestamp_": "absolute",
+                        "message_type": null
+                    },
+                    "recipient": "all"
+                },
+                "parent": "167e38c4",
+                "children": [
+                    "3a4139cd"
+                ]
+            },
+            "3a4139cd": {
+                "id": "3a4139cd",
+                "message": {
+                    "id": "3a4139cd",
+                    "author": {
+                        "role": "system",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1702411001.188231,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            ""
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": true,
+                    "weight": 0.0,
+                    "metadata": {
+                        "message_type": null,
+                        "model_slug": "gpt-4",
+                        "voice_mode_message": true,
+                        "parent_id": "76a41818",
+                        "timestamp_": "absolute"
+                    },
+                    "recipient": "all"
+                },
+                "parent": "76a41818",
+                "children": [
+                    "b08e7433"
+                ]
+            },
+            "b08e7433": {
+                "id": "b08e7433",
+                "message": {
+                    "id": "b08e7433",
+                    "author": {
+                        "role": "assistant",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1702411001.188835,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            "Atmospheric pressure affects the boiling point of water because boiling happens when a liquid's vapor pressure equals the surrounding pressure. At higher altitudes, where atmospheric pressure is lower, water boils at a lower temperature. Conversely, at lower altitudes with higher pressure, water boils at a higher temperature."
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": true,
+                    "weight": 1.0,
+                    "metadata": {
+                        "finish_details": {
+                            "type": "stop",
+                            "stop_tokens": [
+                                100260
+                            ]
+                        },
+                        "inline_gizmo_id": null,
+                        "is_complete": true,
+                        "message_type": null,
+                        "model_slug": "gpt-4",
+                        "voice_mode_message": true,
+                        "parent_id": "3a4139cd",
+                        "timestamp_": "absolute"
+                    },
+                    "recipient": "all"
+                },
+                "parent": "3a4139cd",
+                "children": [
+                    "d9bbe1b7"
+                ]
+            },
+            "d9bbe1b7": {
+                "id": "d9bbe1b7",
+                "message": {
+                    "id": "d9bbe1b7",
+                    "author": {
+                        "role": "user",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1702411026.083216,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            "Expand on the first part of your explanation."
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": null,
+                    "weight": 1.0,
+                    "metadata": {
+                        "voice_mode_message": true,
+                        "timestamp_": "absolute",
+                        "message_type": null
+                    },
+                    "recipient": "all"
+                },
+                "parent": "b08e7433",
+                "children": [
+                    "7bbf8451"
+                ]
+            },
+            "7bbf8451": {
+                "id": "7bbf8451",
+                "message": {
+                    "id": "7bbf8451",
+                    "author": {
+                        "role": "assistant",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1702411037.92104,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            "Sure, let's delve deeper into the first part. Boiling occurs when the vapor pressure of a liquid matches the atmospheric pressure. Vapor pressure is the force exerted by a liquid's vapor when it's in equilibrium with its liquid or solid form. \n\nIn simpler terms, when you heat water, it starts to evaporate, creating vapor pressure. As the temperature rises, this vapor pressure increases. When this pressure is strong enough to equal the atmospheric pressure pushing down on the water's surface, the water begins to boil. This is why atmospheric pressure plays a key role in determining the boiling point of water."
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": true,
+                    "weight": 1.0,
+                    "metadata": {
+                        "finish_details": {
+                            "type": "stop",
+                            "stop_tokens": [
+                                100260
+                            ]
+                        },
+                        "inline_gizmo_id": null,
+                        "is_complete": true,
+                        "message_type": null,
+                        "model_slug": "gpt-4",
+                        "voice_mode_message": true,
+                        "parent_id": "d9bbe1b7",
+                        "timestamp_": "absolute"
+                    },
+                    "recipient": "all"
+                },
+                "parent": "d9bbe1b7",
+                "children": [
+                    "5b8a3f6d"
+                ]
+            },
+            "5b8a3f6d": {
+                "id": "5b8a3f6d",
+                "message": {
+                    "id": "5b8a3f6d",
+                    "author": {
+                        "role": "user",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1702411065.723582,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            "I still can't visualize that."
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": null,
+                    "weight": 1.0,
+                    "metadata": {
+                        "voice_mode_message": true,
+                        "timestamp_": "absolute",
+                        "message_type": null
+                    },
+                    "recipient": "all"
+                },
+                "parent": "7bbf8451",
+                "children": [
+                    "333655ab"
+                ]
+            },
+            "333655ab": {
+                "id": "333655ab",
+                "message": {
+                    "id": "333655ab",
+                    "author": {
+                        "role": "assistant",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1702411076.749866,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            "Imagine a pot of water on a stove. As it heats up, the water molecules gain energy and move faster. These energetic molecules create steam or water vapor. This vapor pushes upwards, creating pressure.\n\nNow, think of the air above the pot. It exerts downward pressure, atmospheric pressure. Boiling happens when the upward pressure of the water vapor balances the downward atmospheric pressure. At lower pressures, like in high mountains, less heat is needed for the water vapor to match the air pressure, so water boils at a lower temperature. Conversely, at sea level, where the atmospheric pressure is higher, it takes more heat to make the water vapor push back equally, raising the boiling point."
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": true,
+                    "weight": 1.0,
+                    "metadata": {
+                        "finish_details": {
+                            "type": "stop",
+                            "stop_tokens": [
+                                100260
+                            ]
+                        },
+                        "inline_gizmo_id": null,
+                        "is_complete": true,
+                        "message_type": null,
+                        "model_slug": "gpt-4",
+                        "voice_mode_message": true,
+                        "parent_id": "5b8a3f6d",
+                        "timestamp_": "absolute"
+                    },
+                    "recipient": "all"
+                },
+                "parent": "5b8a3f6d",
+                "children": [
+                    "47fbdf3f",
+                    "f3942ea7"
+                ]
+            },
+            "47fbdf3f": {
+                "id": "47fbdf3f",
+                "message": {
+                    "id": "47fbdf3f",
+                    "author": {
+                        "role": "user",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1702411086.112704,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            "I can't visualize it, but I can't wrap my head around why this actually happened."
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": null,
+                    "weight": 1.0,
+                    "metadata": {
+                        "voice_mode_message": true,
+                        "timestamp_": "absolute",
+                        "message_type": null
+                    },
+                    "recipient": "all"
+                },
+                "parent": "333655ab",
+                "children": [
+                    "ffed8d73"
+                ]
+            },
+            "ffed8d73": {
+                "id": "ffed8d73",
+                "message": {
+                    "id": "ffed8d73",
+                    "author": {
+                        "role": "assistant",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1702411087.57726,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            "To understand why atmospheric pressure affects boiling, think about what's"
+                        ]
+                    },
+                    "status": "in_progress",
+                    "end_turn": null,
+                    "weight": 1.0,
+                    "metadata": {
+                        "inline_gizmo_id": null,
+                        "message_type": null,
+                        "model_slug": "gpt-4",
+                        "voice_mode_message": true,
+                        "parent_id": "47fbdf3f",
+                        "finish_details": {
+                            "type": "interrupted"
+                        },
+                        "timestamp_": "absolute"
+                    },
+                    "recipient": "all"
+                },
+                "parent": "47fbdf3f",
+                "children": []
+            },
+            "f3942ea7": {
+                "id": "f3942ea7",
+                "message": {
+                    "id": "f3942ea7",
+                    "author": {
+                        "role": "user",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1702411090.51667,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            "Thank you for watching!"
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": null,
+                    "weight": 1.0,
+                    "metadata": {
+                        "voice_mode_message": true,
+                        "timestamp_": "absolute",
+                        "message_type": null
+                    },
+                    "recipient": "all"
+                },
+                "parent": "333655ab",
+                "children": [
+                    "6d639434"
+                ]
+            },
+            "6d639434": {
+                "id": "6d639434",
+                "message": {
+                    "id": "6d639434",
+                    "author": {
+                        "role": "assistant",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1702411092.79573,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            "You're welcome! If you have more questions or need further explanations, feel free to ask. Enjoy your day!"
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": true,
+                    "weight": 1.0,
+                    "metadata": {
+                        "finish_details": {
+                            "type": "stop",
+                            "stop_tokens": [
+                                100260
+                            ]
+                        },
+                        "inline_gizmo_id": null,
+                        "is_complete": true,
+                        "message_type": null,
+                        "model_slug": "gpt-4",
+                        "voice_mode_message": true,
+                        "parent_id": "f3942ea7",
+                        "timestamp_": "absolute"
+                    },
+                    "recipient": "all"
+                },
+                "parent": "f3942ea7",
+                "children": [
+                    "15f33a69"
+                ]
+            },
+            "15f33a69": {
+                "id": "15f33a69",
+                "message": {
+                    "id": "15f33a69",
+                    "author": {
+                        "role": "user",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1702411106.180172,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            "So I got your explanation, but I can't wrap my head around why this actually happens."
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": null,
+                    "weight": 1.0,
+                    "metadata": {
+                        "voice_mode_message": true,
+                        "timestamp_": "absolute",
+                        "message_type": null
+                    },
+                    "recipient": "all"
+                },
+                "parent": "6d639434",
+                "children": [
+                    "ee87ed9c"
+                ]
+            },
+            "ee87ed9c": {
+                "id": "ee87ed9c",
+                "message": {
+                    "id": "ee87ed9c",
+                    "author": {
+                        "role": "assistant",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1702411117.498106,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            "Let's break it down. The key is understanding how molecules behave in different conditions. At sea level, atmospheric pressure is higher due to the weight of the air above us. This pressure presses down on the water's surface, making it harder for the water molecules to escape into the air as vapor.\n\nWhen you heat water, the molecules move faster and faster. To boil, these molecules need enough energy to overcome the atmospheric pressure. At higher pressure, more energy (higher temperature) is needed for the water molecules to break free and turn into steam.\n\nIn contrast, at high altitudes, where the atmospheric pressure is lower, there's less pressure pushing down on the water. This means the water molecules need less energy to escape, so water boils at a lower temperature. It's all about the balance of pressures and the energy of water molecules."
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": true,
+                    "weight": 1.0,
+                    "metadata": {
+                        "finish_details": {
+                            "type": "stop",
+                            "stop_tokens": [
+                                100260
+                            ]
+                        },
+                        "inline_gizmo_id": null,
+                        "is_complete": true,
+                        "message_type": null,
+                        "model_slug": "gpt-4",
+                        "voice_mode_message": true,
+                        "parent_id": "15f33a69",
+                        "timestamp_": "absolute"
+                    },
+                    "recipient": "all"
+                },
+                "parent": "15f33a69",
+                "children": [
+                    "a1a2ec83"
+                ]
+            },
+            "a1a2ec83": {
+                "id": "a1a2ec83",
+                "message": {
+                    "id": "a1a2ec83",
+                    "author": {
+                        "role": "user",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1702411155.844882,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            "Yeah, that makes much more sense. Thank you."
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": null,
+                    "weight": 1.0,
+                    "metadata": {
+                        "voice_mode_message": true,
+                        "timestamp_": "absolute",
+                        "message_type": null
+                    },
+                    "recipient": "all"
+                },
+                "parent": "ee87ed9c",
+                "children": [
+                    "3fb03780"
+                ]
+            },
+            "3fb03780": {
+                "id": "3fb03780",
+                "message": {
+                    "id": "3fb03780",
+                    "author": {
+                        "role": "assistant",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1702411163.818029,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            "You're welcome! I'm glad that explanation helped. If you have any more questions, whether it's about science or anything else, feel free to ask."
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": true,
+                    "weight": 1.0,
+                    "metadata": {
+                        "finish_details": {
+                            "type": "stop",
+                            "stop_tokens": [
+                                100260
+                            ]
+                        },
+                        "inline_gizmo_id": null,
+                        "is_complete": true,
+                        "message_type": null,
+                        "model_slug": "gpt-4",
+                        "voice_mode_message": true,
+                        "parent_id": "a1a2ec83",
+                        "timestamp_": "absolute"
+                    },
+                    "recipient": "all"
+                },
+                "parent": "a1a2ec83",
+                "children": [
+                    "b5e9bba7"
+                ]
+            },
+            "b5e9bba7": {
+                "id": "b5e9bba7",
+                "message": {
+                    "id": "b5e9bba7",
+                    "author": {
+                        "role": "user",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1702411181.276738,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            "Thank you for watching. Please like, comment, and subscribe. "
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": null,
+                    "weight": 1.0,
+                    "metadata": {
+                        "voice_mode_message": true,
+                        "timestamp_": "absolute",
+                        "message_type": null
+                    },
+                    "recipient": "all"
+                },
+                "parent": "3fb03780",
+                "children": [
+                    "6d728ce3"
+                ]
+            },
+            "6d728ce3": {
+                "id": "6d728ce3",
+                "message": {
+                    "id": "6d728ce3",
+                    "author": {
+                        "role": "assistant",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1702411184.109461,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            "You're welcome! If you need more information or have other questions in the future, just reach out. Have a great day!"
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": true,
+                    "weight": 1.0,
+                    "metadata": {
+                        "finish_details": {
+                            "type": "stop",
+                            "stop_tokens": [
+                                100260
+                            ]
+                        },
+                        "inline_gizmo_id": null,
+                        "is_complete": true,
+                        "message_type": null,
+                        "model_slug": "gpt-4",
+                        "voice_mode_message": true,
+                        "parent_id": "b5e9bba7",
+                        "timestamp_": "absolute"
+                    },
+                    "recipient": "all"
+                },
+                "parent": "b5e9bba7",
+                "children": []
+            }
+        },
+        "moderation_results": [],
+        "current_node": "6d728ce3",
+        "plugin_ids": null,
+        "conversation_id": "d20fd39e",
+        "conversation_template_id": null,
+        "gizmo_id": null,
+        "id": "d20fd39e"
+    },
+    {
+        "title": "Kotlin's Key Features",
+        "create_time": 1702062490.265382,
+        "update_time": 1702062657.448035,
+        "mapping": {
+            "12074a59": {
+                "id": "12074a59",
+                "message": {
+                    "id": "12074a59",
+                    "author": {
+                        "role": "system",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": null,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            ""
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": true,
+                    "weight": 0.0,
+                    "metadata": {},
+                    "recipient": "all"
+                },
+                "parent": "aaa10ebf",
+                "children": [
+                    "46740e7b"
+                ]
+            },
+            "aaa10ebf": {
+                "id": "aaa10ebf",
+                "message": null,
+                "parent": null,
+                "children": [
+                    "12074a59"
+                ]
+            },
+            "46740e7b": {
+                "id": "46740e7b",
+                "message": {
+                    "id": "46740e7b",
+                    "author": {
+                        "role": "system",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": null,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            ""
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": null,
+                    "weight": 1.0,
+                    "metadata": {
+                        "is_user_system_message": true,
+                        "user_context_message_data": {
+                            "about_user_message": "Lately I've been filling the knowledge gaps I have on algorithms.",
+                            "about_model_message": "Feel free to ask for any clarifications, if need be."
+                        }
+                    },
+                    "recipient": "all"
+                },
+                "parent": "12074a59",
+                "children": [
+                    "aaa2df77"
+                ]
+            },
+            "aaa2df77": {
+                "id": "aaa2df77",
+                "message": {
+                    "id": "aaa2df77",
+                    "author": {
+                        "role": "user",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1702062490.267073,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            "let's talk about some specific Kotlin features. in detail. with snippets of code. pick just 3 topics and we'll expand further"
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": null,
+                    "weight": 1.0,
+                    "metadata": {
+                        "timestamp_": "absolute",
+                        "message_type": null
+                    },
+                    "recipient": "all"
+                },
+                "parent": "46740e7b",
+                "children": [
+                    "e60ab9ab"
+                ]
+            },
+            "e60ab9ab": {
+                "id": "e60ab9ab",
+                "message": {
+                    "id": "e60ab9ab",
+                    "author": {
+                        "role": "assistant",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1702062520.734918,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            "Absolutely, Sir! Kotlin, being a modern language, offers a host of interesting features. I'll pick three features that are particularly useful and show how they compare to Java, especially since you have a background in Java development.\n\n### 1. Null Safety\n\nIn Kotlin, nullability is a part of the type system. Types are non-nullable by default, and you must explicitly declare a type as nullable by adding a `?` to the type.\n\n**Kotlin:**\n```kotlin\nvar nonNullableString: String = \"Hello\"\n// nonNullableString = null // This will cause a compile error\n\nvar nullableString: String? = \"Hello\"\nnullableString = null // This is fine\n```\n\n**Java:**\n```java\nString nonNullableString = \"Hello\";\nnonNullableString = null; // Allowed, but may cause NullPointerException later\n```\n\n### 2. Extension Functions\n\nKotlin allows you to extend a class with new functionality without having to inherit from the class. These are known as extension functions.\n\n**Kotlin:**\n```kotlin\nfun String.addExclamation(): String {\n    return this + \"!\"\n}\n\nval greeting = \"Hello\"\nprintln(greeting.addExclamation()) // Output: Hello!\n```\n\nIn Java, this would typically be done using a utility class with static methods.\n\n### 3. Coroutines for Asynchronous Programming\n\nKotlin introduces coroutines for managing background tasks in a more efficient and simpler manner compared to Java's Threads and Runnable.\n\n**Kotlin:**\n```kotlin\nimport kotlinx.coroutines.*\n\nfun main() = runBlocking {\n    launch {\n        delay(1000L)\n        println(\"World!\")\n    }\n    println(\"Hello,\")\n}\n```\n\nThis starts a new coroutine that prints \"World!\" after a delay, while the main thread continues and prints \"Hello,\". In Java, this would typically involve more complex handling with threads or futures.\n\nThese are just starting points. Let's dive deeper into any of these, or explore more features if you're interested!"
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": true,
+                    "weight": 1.0,
+                    "metadata": {
+                        "finish_details": {
+                            "type": "stop",
+                            "stop_tokens": [
+                                100260
+                            ]
+                        },
+                        "is_complete": true,
+                        "message_type": null,
+                        "model_slug": "gpt-4",
+                        "parent_id": "aaa2df77",
+                        "timestamp_": "absolute"
+                    },
+                    "recipient": "all"
+                },
+                "parent": "aaa2df77",
+                "children": [
+                    "aaa21788"
+                ]
+            },
+            "aaa21788": {
+                "id": "aaa21788",
+                "message": {
+                    "id": "aaa21788",
+                    "author": {
+                        "role": "user",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1702062620.728064,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            "let's explore Extension Functions further.. "
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": null,
+                    "weight": 1.0,
+                    "metadata": {
+                        "timestamp_": "absolute",
+                        "message_type": null
+                    },
+                    "recipient": "all"
+                },
+                "parent": "e60ab9ab",
+                "children": [
+                    "c40e31de"
+                ]
+            },
+            "c40e31de": {
+                "id": "c40e31de",
+                "message": {
+                    "id": "c40e31de",
+                    "author": {
+                        "role": "assistant",
+                        "name": null,
+                        "metadata": {}
+                    },
+                    "create_time": 1702062657.443959,
+                    "update_time": null,
+                    "content": {
+                        "content_type": "text",
+                        "parts": [
+                            "Great choice! Extension functions in Kotlin are a powerful feature that allow you to extend the functionality of classes without having to inherit from them. This is particularly useful when you want to add more methods to a class that you don't own, like those in the standard library or a third-party library. Let's dive deeper into this feature.\n\n### Understanding Extension Functions\n\nAn extension function is defined outside of the class it extends, but it can be called as if it were a member of that class. Here's the basic syntax:\n\n```kotlin\nfun ClassName.functionName(params): ReturnType {\n    // function body\n}\n```\n\n### Example: Extending `String` Class\n\nLet's say we want to add a method to the `String` class that checks if a string is a valid email address.\n\n**Kotlin:**\n```kotlin\nfun String.isValidEmail(): Boolean {\n    return this.contains(\"@\") && this.contains(\".\")\n}\n\nval email = \"example@test.com\"\nprintln(email.isValidEmail()) // Output: true\n\nval nonEmail = \"test\"\nprintln(nonEmail.isValidEmail()) // Output: false\n```\n\n### Extension Properties\n\nIn addition to functions, you can also define extension properties. However, since extension functions and properties don't actually insert members into classes, there are no backing fields. Therefore, extension properties can't have an initializer and must be defined with either a getter or a setter.\n\n```kotlin\nval String.numVowels\n    get() = count { it in \"aeiouAEIOU\" }\n\nval word = \"hello\"\nprintln(word.numVowels) // Output: 2\n```\n\n### Limitations\n\n1. **Private and Protected Members**: Extension functions can't access private or protected members of the class they extend.\n2. **Overriding**: Extension functions are resolved statically (i.e., at compile time) and can't be overridden like class methods.\n\n### Use Cases\n\nExtension functions are particularly useful for:\n- Adding utility functions to classes without modifying them.\n- Creating DSLs (Domain Specific Languages).\n- Increasing readability and maintainability of code by keeping related methods closer to where they are used.\n\nWould you like to see more examples or explore specific use cases relevant to your work?"
+                        ]
+                    },
+                    "status": "finished_successfully",
+                    "end_turn": true,
+                    "weight": 1.0,
+                    "metadata": {
+                        "finish_details": {
+                            "type": "stop",
+                            "stop_tokens": [
+                                100260
+                            ]
+                        },
+                        "is_complete": true,
+                        "message_type": null,
+                        "model_slug": "gpt-4",
+                        "parent_id": "aaa21788",
+                        "timestamp_": "absolute"
+                    },
+                    "recipient": "all"
+                },
+                "parent": "aaa21788",
+                "children": []
+            }
+        },
+        "moderation_results": [],
+        "current_node": "c40ea1de",
+        "plugin_ids": null,
+        "conversation_id": "ca5850a7",
+        "conversation_template_id": null,
+        "gizmo_id": null,
+        "id": "ca5850a7"
+    }    
+]

@@ -1,0 +1,219 @@
+body {
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #3c4258;
+    display: flex;
+    justify-content: center;
+}
+
+.conversation {
+    width: 800px;
+    background-color: #3c4258;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-left: calc(250px + 20px);
+    box-sizing: border-box;
+}
+
+.conversations-list {
+    overflow-y: auto;
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 300px;
+    background-color: #0b0b0b;
+    color: #d9d9d9;
+}
+
+.conversation-counter {
+    position: absolute;
+    top: 10px;
+    left: 180px;
+    width: 100px;
+    height: 30px;
+    background-color: #0b0b0b;
+    /* Example background color */
+    border: 1px solid #ccc;
+    /* Example border */
+    border-radius: 5px;
+    /* Slight rounding of corners */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+
+.load-file-button {
+    position: fixed;
+    top: 10px;
+    left: 120px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #d9d9d9;
+    border: 1px solid #d9d9d9;
+    background-color: #0b0b0b;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* Container for both counter and conversation list */
+.conversations-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 300px;
+    background-color: #0b0b0b;
+    color: #d9d9d9;
+}
+
+.message {
+    width: 740px;
+    padding: 10px 15px;
+    margin: 5px 0;
+    border-radius: 18px;
+    line-height: 1.6;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 100%;
+}
+
+.message.assistant {
+    background-color: #3c475f;
+    color: rgb(222, 222, 222);
+    border: 1px solid #576481;
+    /* Light grey for assistant messages */
+    align-self: flex-start;
+}
+
+.message.user {
+    background-color: none;
+    /* Blue for user messages */
+    color: rgb(222, 222, 222);
+    border: 1px solid #576481;
+    align-self: flex-end;
+}
+
+.message-metadata {
+    font-size: 0.75rem;
+    color: rgb(212, 188, 5);
+    /* Grey for metadata */
+    margin-bottom: 20px;
+    /* Spacing above the message text */
+    text-align: right;
+}
+
+.message:before {
+    content: attr(data-author);
+    display: inline-block;
+    font-size: 0.75rem;
+    color: #d9d9d9;
+    background: #6c757d;
+    /* Dark grey background for the bubble */
+    border-radius: 10px;
+    padding: 2px 8px;
+    margin-right: 8px;
+    vertical-align: top;
+}
+
+.copy-button {
+    background-color: #141d2e;
+    display: inline-block;
+    vertical-align: top;
+    color: #d9d9d9;
+    border-radius: 10px;
+    padding: 2px 8px;
+    margin-right: 8px;
+    cursor: pointer;
+    font-size: 0.75rem;
+    user-select: none;
+    transition: background-color 0.3s;
+}
+
+.message.user:before {
+    background: #007bff;
+    /* Blue background for user bubble */
+}
+
+.message.assistant:before {
+    background: #28a745;
+    /* Green background for assistant bubble */
+}
+
+.message-content pre code {
+    background-color: #54637f;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    white-space: pre-wrap;
+    word-break: break-all;
+    display: block;
+    color: #d9d9d9
+}
+
+pre,
+code {
+    background: #54637f;
+    border: 1px solid #232748;
+    font-family: 'Courier New', monospace;
+    padding: 5px;
+    white-space: pre-wrap;
+    /* wrap long lines */
+    display: block;
+    /* for block-level formatting */
+}
+
+/* Styles for each conversation title in the list */
+.conversation-title {
+    padding: 5px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+/* Hover effect for conversation titles */
+.conversation-title:hover {
+    background-color: #333333;
+}
+
+.search-container {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    width: 250px;
+    padding: 20px;
+    box-sizing: none;
+}
+
+#searchInput {
+    width: calc(100% - 0px);
+    margin-bottom: 10px;
+    background-color: #050c1b;
+    color: rgb(230, 230, 230);
+    height: 26px;
+}
+
+#searchButton {
+    width: 50%;
+    background-color: #3c475f;
+    color: rgb(222, 222, 222);
+}
+
+.subtitle {
+    font-size: 1.2em;
+    font-weight: bold;
+    /* Adjust the size as needed */
+}
+
+/* End of styles for each conversation title in the list */

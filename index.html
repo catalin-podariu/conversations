@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversations with myself</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="conversation" class="conversation"></div>
+    <div class="conversations-container">
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="What do you truly desire?">
+            <button id="searchButton" onclick="searchConversations()">Search</button>
+        </div>
+        <div id="conversation-counter" class="conversation-counter">
+            Count = <span id="conversation-count">0</span>
+        </div>
+        <div id="conversations-list" class="conversations-list"></div>
+    </div>
+    <button id="loadFileButton" class="load-file-button">Load</button>
+    <input type="file" id="fileInput" style="display: none;" accept=".json" />
+    <script src="script.js"></script>
+</body>
+
+</html>
